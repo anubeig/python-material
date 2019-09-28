@@ -1,0 +1,135 @@
+Python general questions:-
+========================
+1) what is d diffrence between python and other laungages ??
+2) Mention few benefits of using Python?
+3) Does Python allow arguments Pass by Value or Pass by Reference?
+4) Why is the “pass” keyword used for in Python?
+5) Why is <__init__.py> module used for?
+6) Differentiate between .py and .pyc files?
+7) Explain how Python does Compile-time and Run-time code checking?
+8) How memory is managed in Python?
+9) what is d use of setup.py in python
+10) what is d use of __init__=__main__: condition in python??
+11) what is d type of *args and **kargs ??
+12) difference between %s and %r in python
+13) What is module and package in Python?
+14) How will you set a global variable inside a function?
+15) How will you share global variables across modules?
+16) What are the tools that help to find bugs or perform static analysis?
+17) As Everything in Python is an Object,
+    Explain the characteristics of Python's Objects.
+
+Python string questions:-
+======================
+1) What is slicing in Python? Explain with example.
+2) What is a negative index in Python?
+3) What is the best way to split a string in Python?
+4) What is the right way to transform a Python string into a list?
+5) How will you convert a string to a number in Python?
+
+python iterators related questions:-
+===================================
+1) What are iterators in Python?
+2) What are generators in Python? and yield keyword use in python ??
+3) list comprehensions in python ??
+4) zip function in python ??
+5) What is the use of enumerate() in Python?
+6) lamda expressions in python ???
+7) Map,reduce and filter functions in python ???
+8) What is the difference between Xrange and range?
+
+python mechanism realted questions:-
+==================================
+1) Explain the use of with statement?   (python context manager mechanism)
+2) Whenever Python exists Why does all the memory is not de-allocated / freed when Python exits?
+   (python garbage collector mechanism)
+3) Explain about Python decorators?
+4) What is Pickling and how does it different from Unpickling?
+
+File realted questions:-
+======================
+1) How do you check the file existence and their types in Python?
+2) How do you open a file in python ?? and why ??
+3) How do you check list of files in the given path in python ??
+4) How do you check whether file is exist or not in python
+5) How do you perform copy file cmd in python ??
+6) Explain how to delete a file in Python?
+
+Collections(list,tuple, set,dictinary):-
+================================
+1) When to use list ?? tuple ?? set ?? and dictionary in python ??
+2) List out the each collections(list,tuple,set and dictinary)
+   object type. i.e list which are muttable objects and which are immuttable objects ??
+3) How will you remove the duplicate elements from the given list?
+4) What is the best approach to store a list of an employee’s first and last names?
+5) why dont we use list as dictionary key??
+
+OOPS:-
+=======
+1) Is Python object oriented? what is object oriented programming?
+2) java type constructor in python ??
+3) self keyword use in python ??
+4) Explain Inheritance in Python with an example.
+5) Explain polymorhism in python with
+   an static binding and dynamic binding examples ??
+6) method overriding ???
+7) How instance variables are different from class variables?
+8) Can you write code to check whether the given object belongs
+   to a class or its subclass?
+9) Abstract class implementation in python ??
+    can we create object for abstract class ??
+    if not then how we can call the abstract class members??
+10) Super keyword use in python oops concept??
+11) Could you please explain MRO(Method resolution order) in python ??
+12) Compostion vs inheritance vs aggregation ??
+13) static variables and static methods in python ??
+14) Does diamond probelm exist in python ??
+15) Does python support multiinheritance ??
+16) Does Python supports interfaces like in Java? Discuss.
+17) Name and explain the three magic methods of Python that are used in
+    the construction and initialization of custom Objects.
+18) What are the different methods Python provides for copying an object?
+19) How to prevent class 'a' from being inherited by another class? and
+    also how to prevent parent class method 'm' from being
+    inherited by another class?
+20) How do you implement constant variables in python ???
+21) Exact use of Abstract class??
+
+Exception Handling:-
+===================
+1) What is an exception?
+2) What are Exception Handling? How do you achieve it in Python?
+3) Explain different ways to trigger / raise exceptions in your python script ?
+4) How many except statements can a try-except block have??
+5) When will the else part of try-except-else be executed?
+6) When is the finally block executed?
+7) Is it necessary that each try block must be followed by a except block?
+8) Can finally block be used without except?
+9) Is there any case when finally will not be executed?
+10) what happened return statement is in except block
+11) will finally run after return??
+12) How do you implement custom exception in python ??
+
+threading :-
+=========
+1) What is the difference between Process and Thread?
+2) What are the benefits of multi-threaded programming?
+3) What is difference between user Thread and daemon Thread?
+4) What are the libraries in Python that support threads?
+5) Diffrenece between sleep() and wait() method ???
+6) join() method use in python ??
+7) What is synchronization?
+8) Explain about Lock ?? and its two states(acquire and release??
+9) What is Deadlock? How to analyze and avoid deadlock situation?
+10) Explain about wait(),notify() and notifyALL() methods ??
+    (Inter process comunication methods) (Thread condition mechanism)
+11) Why wait(), notify() and notifyAll() methods have to be called from
+    synchronized method or block?
+12) What is the difference between threading.Lock and threading.RLock?
+13) When and how to use Python's RLock??
+14) How to terminate a blocking thread?
+15) Can we start a thread twice ??
+
+database connections:-
+====================
+Explain database connection in Python

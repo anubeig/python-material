@@ -1,0 +1,1 @@
+#https://code-maven.com/creating-an-iterator-in-python

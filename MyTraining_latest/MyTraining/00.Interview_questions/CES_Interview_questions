@@ -1,0 +1,36 @@
+1.Basic questions on oops:
+  *.Implement Base class using Instance, static and Abstract method
+    instance method - takes two arguments to add operation
+    static method - takes two args to multiply operation
+    abstract method - takes two args to div operation
+  *. Implement child class using 3 instance methods
+    instance - takes three args for add operation
+    instance - takes two args for multiplicatio operation
+    instance - takes two args for div opration
+
+    create a relation between two classes
+2. How you realate two objects in python? For example Book and Page.
+3. find the sum of sequence by skipping the between elements without using slicing.
+    Ex seq = [1, 2, 3, 4, 5, 6, 7, 8, 9] where x = 4, y = 7
+       skip elements between x and y(including x and y i,e. [4, 5, 6, 7]) always y
+       comes after x
+       output: 1+2+3+8+9 = 23
+4. File question:
+   File has following data:
+   Print the words of the file by sorting order of the corresponding integers.
+   Expected output:
+    ABC, IJK, PQR, TUV, DEF
+   =======
+   TUV
+   7
+   PQR
+   4
+   ABC
+   1
+   DEF
+   8
+   IJK
+   3
+   =========
+5. What is decorator? use of decorator? How you implement the decrator for argumented functions to override the behaviour.
+6. Difference between __new__ and __init__ ??

@@ -1,0 +1,1 @@
+#https://code-maven.com/function-vs-generator-in-python

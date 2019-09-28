@@ -1,0 +1,1 @@
+#https://stackoverflow.com/questions/30679467/pivot-tables-or-group-by-for-pandas

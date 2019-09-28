@@ -1,0 +1,54 @@
+"""
+https://www.guru99.com/python-pandas-tutorial.html
+A series is a one-dimensional data structure.
+It can have any data structure like integer, float, and string.
+It is useful when you want to perform computation or return a one-dimensional array.
+A series, by definition, cannot have multiple columns
+"""
+
+import pandas as pn
+import numpy as np
+
+series = pn.Series([10,20,30,40,50]);
+print(series)
+
+#give names to indexes
+
+series = pn.Series([10,20,30,40,50], index=['A','B','C','D','E']);
+print(series)
+
+
+
+"""
+A data frame is a two-dimensional array, with labeled axes (rows and columns). 
+A data frame is a standard way to store data.
+
+A data frame is a tabular data, with rows to store the information and columns to name the information. 
+For instance, the price can be the name of a column and 2,3,4 the price values.
+                                      item price
+                                    ============
+                                    0  A   25
+                                    1  B   35
+"""
+
+df = pn.DataFrame([['A',25],['B',35]],columns=['item','price'],index=['Row1','Row2'])
+print("dataframe :");
+print(df);
+
+#By using dict
+
+dict1 = {'Names':['Nazeer','Malika','Anu','Parru','Arshiya','Seema','Amir','Asma','Mateen','Ashiq'], 'Age':[55,48,30,29,25,22,7,3,1,1]}
+df = pn.DataFrame(dict1);
+print("dataframe :");
+print(df);
+print(df.describe());
+#head and tail
+print(df.head(3));
+print(df.tail(3));
+print(df.count())
+print(df['Age'].max())
+print(df['Age'].min())
+"shape property use to find no of rows and cols"
+print(df.shape)
+print(df['Age'].size)
+print(df.size)

@@ -1,0 +1,65 @@
+Written test questions:-
+======================
+1) Difference between *args and **kargs ??
+2) Generator related question ?? yield,iterator, .next()
+3) class A():
+    def __init__(self,name):
+        self.name=name
+
+   a = A('mary')
+   b=a
+   del a
+   print b.name ??
+
+4) class A():
+    def __setattribute__(self,name,value):
+        if name =='gender'
+            self.name = name
+            if value in ('male' ,'female'):
+                self.value = value
+
+
+    a = A('mary','female')
+    print (a.value)??? ans: error to many itreations to set attriubute
+
+5) Question about __repr__ method
+class A()
+    def __repr__(self,value):
+
+6) class A():
+    Pass
+
+   class B():
+    pass
+
+    a == b
+
+7) class A():
+     a = 6
+
+   class C():
+     a=7
+
+   class B(A,C):
+
+   b= B()
+   print b.a ???
+
+ 8) [1,3,5,100],cats and dogs
+
+ 9) About context manger  methods enter(),exit()
+
+ 10) why dont we use list as dictionary key.
+
+ 11) multipler = 8
+     lamda x,y: x*multiplier/y
+     a(2,3) Ans 5
+
+
+
+Face-to-face interview questions
+
+1)Explain about generators ??
+2)Explain about map() function ??
+3)Explain oops concepts ??
+4)How do you implement factorial of a number in python ???

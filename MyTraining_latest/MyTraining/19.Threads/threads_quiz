@@ -1,0 +1,160 @@
+1. Question 10 points
+What is the exception raised for an error that doesn’t fall in any of the categories?
+
+1.   ReferenceError
+2.   RuntimeError
+3.   LookupError
+4.   SystemError
+Incorrect
+2. Question 10 points
+Which thread method is used to wait until it terminates?
+
+1.   wait()
+2.   None
+3.   waitforthread()
+4.   join()
+Correct
+3. Question 10 points
+What is the method that wakes up all thread waiting for the condition?
+
+1.   notifyAll()
+2.   notify()
+3.   release()
+4.   releaseAll()
+Correct
+4. Question 10 points
+Which statements are true for RLock objects?
+
+1.   if another thread owns the lock, acquire() will block until the lock is unlocked.
+2.   If a thread already owns the lock, acquire() will increment the recursion level by one, and return immediately.
+3.   If a thread already owns the lock, acquire() will block until the lock is unlocked.
+4.   if another thread owns the lock, acquire() will increment the recursion level by one, and return immediately.
+Incorrect
+5. Question 10 points
+What is the method to retrieve the list of all active threads?
+
+1.   threads()
+2.   getList()
+3.   getThreads()
+4.   enumerate()
+Incorrect
+6. Question 10 points
+Which Python library runs a function as thread?
+
+1.   thread
+2.   None
+3.   threading
+4.   _threading
+Incorrect
+7. Question 10 points
+What are the states/features supported by a Lock object?
+
+1.   Recursion level
+2.   Locked
+3.   Owning thread
+4.   Unlocked
+Incorrect
+8. Question 10 points
+Which synchronization method is used to guard the resources with limited capacity, e.g. a database server?
+
+1.   Event
+2.   Lock
+3.   Semaphore
+4.   Condition
+Correct
+9. Question 10 points
+What is the difference between threading.Lock and threading.RLock?
+
+1.   Lock is owned by none while RLock is owned by many.
+2.   Lock is owned by a thread while RLock is owned by many.
+3.   Lock and RLock both primitives are owned by many.
+4.   Lock and RLock both primitives are owned by a single thread.
+Incorrect
+10. Question 10 points
+How to terminate a blocking thread?
+
+1.   thread.stop()
+2.   thread.stop() & thread.wait()
+3.   thread.terminate()
+4.   None
+Incorrect
+11. Question 10 points
+What are the lock types a Condition object can associate with?
+
+1.   Lock object
+2.   RLock object
+3.   Semaphore
+4.   None
+Incorrect
+12. Question 10 points
+What are the libraries in Python that support threads?
+
+1.   thread
+2.   _threading
+3.   threading
+4.   None
+Incorrect
+13. Question 10 points
+Which method is used to identify a thread?
+
+1.   get_ident()
+2.   getThread()
+3.   None
+4.   getName()
+Incorrect
+14. Question 10 points
+Which one is reentrant lock type?
+
+1.   Lock
+2.   RLock
+3.   Semaphore
+4.   Condition
+Correct
+15. Question 10 points
+How does run() method is invoked?
+
+1.   By Thread.start()
+2.   By Thread.create()
+3.   None
+4.   By Thread.run()
+Incorrect
+16. Question 10 points
+What would be the impact of multithreading on a uni-processor system?
+
+1.   Increase throughput
+2.   Reduce execution time
+3.   Degrade performance
+4.   Improve performance
+Incorrect
+17. Question 10 points
+How to detect the status of a python thread?
+
+1.   isActive()
+2.   None
+3.   isDaemon()
+4.   isAlive()
+Incorrect
+18. Question 10 points
+How does global value mutation used for thread-safety?
+
+1.   via Locking
+2.   via Mutex
+3.   via GIL (Global Interpreter Lock)
+4.   None
+Incorrect
+19. Question 10 points
+What is the difference between a semaphore and bounded semaphore?
+
+1.   Semaphore holds a counter for the number of release() calls minus the number of acquire() calls, plus an initial value but bounded semaphore doesn't.
+2.   Bounded semaphore holds a counter for the number of release() calls minus the number of acquire() calls, plus an initial value but semaphore doesn't.
+3.   A semaphore makes sure its current value doesn’t exceed its initial value while bounded semaphore doesn't.
+4.   A bounded semaphore makes sure its current value doesn’t exceed its initial value while semaphore doesn't.
+Incorrect
+20. Question 10 points
+What are the states/features supported by a RLock object?
+
+1.   Owning thread
+2.   Locked
+3.   Recursion level
+4.   Unlocked
+Incorrect

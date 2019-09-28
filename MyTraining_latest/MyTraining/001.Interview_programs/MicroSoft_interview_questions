@@ -1,0 +1,12 @@
+1) Addition of two binary strings a ="11" and b = "1" and output "100"
+ 2)Permutation of ABC
+ 3)input string "aaabccdee" then output "3ab2cd2e"
+ 4)Validstings
+      {}
+      ({})
+      [{()}]
+
+      and invalid string
+       (}
+       {{)}
+       [{[{()})]

@@ -1,0 +1,17 @@
+1) Explain about abstract class ??
+2) Difference between 1)Abstract method 2)static method 3) instance method and 4) class method
+3) Diffrence between __init__ and __new__ magical methods ??
+4) Could you please explain the magical methods in python do you know??
+5) Explain abount __call__ magical method
+6) method overloading in python ?? How to achive it ??
+7) Shallow copy and deep copy
+8) decorator for class in python ??
+9) list comprhension for even numbers ??
+10) diffrence between list and genertors ??
+11) diffrence between yeild and return keyword
+12) set vs tuple vs list vs dict diffrences
+13) Can we use list for dictinary key??
+14) *args type ?? can we pass type to @args ??
+15) defaultdict module (it is python collection module)??
+16) lamda map,reduce methods
+17) l1=l2=[1.2,3,4,5] , l2.append(5) then what is the ouput of l1 and l2??
